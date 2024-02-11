@@ -183,7 +183,17 @@ padding: 0px;
             }     
             .back{
                 visibility: hidden;
-            }     
+            } 
+            .ubica{
+                width: 1200px;
+                display: flex;
+                justify-content: center;
+            }
+            .ubica i{
+                font-size: 40px;
+                margin-bottom: 5px;
+                color: green;
+            }    
     /* -------------------------------------- Media qry ---------------------- */
     @media screen and (max-width: 720px){
         .search input{
