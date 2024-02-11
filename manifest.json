@@ -1,0 +1,16 @@
+{
+  "name": "Sinred",
+  "short_name": "SR",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#13024A",
+  "icons": [
+
+    {
+      "src": "/img/Circulos512x512.webp",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
