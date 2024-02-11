@@ -180,7 +180,10 @@ padding: 0px;
                 display: flex;
                 justify-content:space-around;
                 flex-wrap: wrap;
-            }          
+            }     
+            .back{
+                visibility: hidden;
+            }     
     /* -------------------------------------- Media qry ---------------------- */
     @media screen and (max-width: 720px){
         .search input{

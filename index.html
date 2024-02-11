@@ -9,8 +9,8 @@
     <link rel="manifest" href="/manifest.json">
 </head>
 <body>
-    <!-- <div id="regreso">regreso</div>       
-    <div id="whatsapp">regreso</div> -->
+     <div class="back" id="regreso">regreso</div>        
+    <!-- <div id="whatsapp">regreso</div>  -->
 
     <header>
 
@@ -37,8 +37,9 @@
                         <li><a href="#" >Servicio</a></li>
                         <li><a href="#">Nosotros</a></li>
                         <li><a href="#">Blog</a></li>
-                        <li><a href="#">Cursos</a></li>
-                        <li><a href="#contacto" id="regreso">Contactos</a></li>
+                        <li><a href="#" id="regreso">Cursos</a></li>
+                        <!-- <li><a href="#contacto" id="regreso">Contactos</a></li> -->
+                        <li><a href="#contacto"   onclick="contacto()" >Contactos</a></li>
                     </ul>
                 </nav>
             </div>
@@ -88,10 +89,18 @@
 
     <a class="reg"  href="#regreso"><i class="fa-solid fa-arrow-up"></i></a>
 
+
+    <div class="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d120454.63704243109!2d-99.04987961977324!3d19.360169980885022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d19.3249334!2d-98.8828243!4m5!1s0x85d1fc990a5eeceb%3A0xfa5f51c4f75dad17!2sC.%2024%2044%2C%20El%20Sol%2C%2057200%20Cdad.%20Nezahualc%C3%B3yotl%2C%20M%C3%A9x.!3m2!1d19.4294253!2d-99.03894869999999!5e0!3m2!1ses-419!2smx!4v1707675034306!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
     <div class="mapa">
         <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7529.909944376239!2d-98.883815!3d19.3277601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1e4a764de5e9%3A0x771d3c9d90f23b41!2sGeovillas%20Jesus%20Maria%2C%2056586%20Ixtapaluca%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1707635473333!5m2!1ses-419!2smx" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.1912080122283!2d-98.88355321398772!3d19.327906073346895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1e4a764de5e9%3A0x771d3c9d90f23b41!2sGeovillas%20Jesus%20Maria%2C%2056586%20Ixtapaluca%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1707636121063!5m2!1ses-419!2smx" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
-<br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.1912080122283!2d-98.88355321398772!3d19.327906073346895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1e4a764de5e9%3A0x771d3c9d90f23b41!2sGeovillas%20Jesus%20Maria%2C%2056586%20Ixtapaluca%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1707636121063!5m2!1ses-419!2smx" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+    </div>
+
+    <br>
+
     <footer id="contacto">
        <div class="logo">
             <img src="Logo.png"  alt="">
@@ -111,6 +120,8 @@
                 <p>gustavodelossantos@hotmail.com</p>
             </div>
         </div>
-    </footer>     
+    </footer>    
+    
+    <script src="js.js"></script>
 </body>
 </html>
