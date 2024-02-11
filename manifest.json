@@ -8,7 +8,7 @@
   "icons": [
 
     {
-      "src": "/img/Circulos512x512.webp",
+      "src": "/Circulos512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
