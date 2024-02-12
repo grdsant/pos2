@@ -314,6 +314,16 @@ padding: 0px;
         .logo img{
             width:190px;
         }
+
+        .videoT2 video{
+            max-width: 420px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;             
+
+        }
+
         footer {
             padding-top: 0px;
         }
