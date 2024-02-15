@@ -64,7 +64,8 @@ nav a {
 }
 nav a:hover {
 	color: red;
-	transform: scale(1.2);
+	transform: scale(1);
+	font-size: 20px;
 }
 
 
@@ -158,6 +159,7 @@ nav a:hover {
 	justify-content: center;
 	align-items: center;
 	margin: 75px 0px 35px;
+	color: #494949;
 }
 .seccion2 .card {
 	background: #fff;
@@ -192,6 +194,37 @@ nav a:hover {
 	align-items: center;
 	justify-content: center;
 }
+
+.seccion3 {
+	max-width: 800px;
+	margin: auto;
+	display: flex;
+	width: 100vw;
+	 flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 150px; 
+	margin-bottom: 80px; 
+}
+.seccion3 h1 {
+	font-size: 48px;
+	text-align: center;
+	color: #494949;
+	margin-top: 180px;
+	margin-bottom: 50px;
+}
+.seccion3 .card {
+	margin: 20px;
+	width: 100%;
+}
+/* .seccion3 .card ul {
+} */
+
+.seccion3 .card ul li{
+	font-size: 25px;
+	line-height: 50px;
+}
+
 @media screen and (max-width: 1100px) {
 	nav a {
 		font-size: 14px;
@@ -269,7 +302,7 @@ footer .copy p{
 	}
 	.seccion1 .card .hyt {
 		margin: 0px 0px 0px 0px;
-		margin-top: 0px;
+		margin-top: 20px;
 	}
 	.seccion1 .card img {
 		padding: 0px 0px 0px 0px;
@@ -287,5 +320,11 @@ footer .copy p{
 	}
 	.seccion2 .card img {
 	padding: 5px 50px 5px 50px;
+	}
+
+	.seccion3 .card ul li{
+		font-size: 15px;
+		line-height: 14px;
+		margin: 20px;
 	}
 }
