@@ -274,6 +274,9 @@ footer .copy p{
 	nav a {
 		font-size: 10px;
 	}
+	.seccion1 .card {
+		margin-top: 90px;
+	}
 	.seccion1 h1 {
 		font-size: 18px;
 		
