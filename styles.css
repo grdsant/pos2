@@ -267,4 +267,25 @@ footer .copy p{
 	font-size: 10px;
 	margin: 5px;
 	}
+	.seccion1 .card .hyt {
+		margin: 0px 0px 0px 0px;
+		margin-top: 100px;
+	}
+	.seccion1 .card img {
+		padding: 0px 0px 0px 0px;
+	}
+	.seccion1 .card .hyt .texto {
+		font-size: 15px;
+		font-weight: 300;
+	}
+
+	.seccion2 p {
+		line-height: 20px;
+		font-size: 15px;
+		padding: 5px;
+		margin: 5px;
+	}
+	.seccion2 .card img {
+	padding: 5px 50px 5px 50px;
+	}
 }
