@@ -1,16 +1,26 @@
 {
   "name": "Sinred",
-  "short_name": "SR",
-  "start_url": "/index.html",
+  "short_name": "Sinred",
+  "background_color": "#22335F",
+  "theme_color": "#22335F",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#13024A",
+  "scope": "./",
+  "start_url": "./",
   "icons": [
 
     {
-      "src": "/Circulos512x512.png",
+      "src": "Logo512x512.png",
+      "type": "image/png",
       "sizes": "512x512",
-      "type": "image/png"
+      "form_factor": "wide",
+      "label": "Wonder 512x512"
+    },
+    {
+      "src": "Logo512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "form_factor": "narrow",
+      "label": "Wonder 512x512"
     }
   ]
 }
