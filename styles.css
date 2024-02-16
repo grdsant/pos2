@@ -225,6 +225,121 @@ nav a:hover {
 	line-height: 50px;
 }
 
+.seccion4 {
+	max-width: 1500px;
+	margin: auto;
+	display: flex;
+	width: 100vw;
+	 flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.seccion4 h1 {
+	font-size: 48px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	color: #494949;
+}
+.seccion4 .galeria {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 100px;
+
+
+}
+.seccion4 .card img{
+	width: 150px;
+	height: 150px;
+}
+
+.seccion5 {
+	max-width: 1500px;
+	margin: auto;
+	display: flex;
+	width: 100vw;
+	 flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.seccion5 .contacto  {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	/* flex-wrap: wrap; */
+	justify-content: center;
+	align-items: center;
+	gap:20px;
+}
+.seccion5 h1 {
+	font-size: 48px;
+	margin-top: 90px;
+	margin-bottom: 20px;
+	color: #494949;
+}
+.seccion5 .contacto .mapa {
+	width: 100%;
+	overflow: auto;
+}
+.seccion5 .contacto .ubica {
+	width: 100%;
+	/* height: 100%; */
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+	font-size: 79px;
+}
+.seccion5 .contacto .qr {
+	width: 100%;
+	/* height: 100%; */
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+	font-size: 79px;
+}
+.seccion5 .contacto .qr img{
+	width: 100%;
+	height: 70%;
+}
+
+footer{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: #22335F;
+		width: 100vw;
+		height: 50vh;
+}
+footer img{
+	width: 400px;
+	height: 250px;
+	margin-top: -50px;
+}
+footer .numero{
+	color: whitesmoke;
+	font-size: 28px;
+	margin-bottom: 100px;
+}
+footer .copy {
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-evenly;
+}
+footer .copy p{
+	color: whitesmoke;
+}
+ /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 @media screen and (max-width: 1100px) {
 	nav a {
 		font-size: 14px;
@@ -235,41 +350,6 @@ nav a:hover {
 		width: 100vw;
 	}
 }
-
-
-footer{
-
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		background-color: #22335F;
-		width: 100vw;
-		margin: auto;
-
-}
-footer img{
-	width: 400px;
-	height: 250px;
-	margin-top: -50px;
-}
-footer .numero{
-	color: whitesmoke;
-	font-size: 28px;
-}
-footer .copy {
-	width: 100vw;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content:space-evenly;
-
-}
-footer .copy p{
-	color: whitesmoke;
-
-}
-
 @media screen and (max-width: 900px) {
 	nav a {
 		font-size: 10px;
@@ -278,14 +358,14 @@ footer .copy p{
 		margin-top: 90px;
 	}
 	.seccion1 h1 {
-		font-size: 18px;
+		font-size: 28px;
 		
 	}
 
 	.seccion1 p {
 		line-height: 25px;
-	font-size: 20px;
-	margin: 10px;
+		font-size: 20px;
+		margin: 10px;
 	}
 }
 
@@ -294,14 +374,12 @@ footer .copy p{
 		font-size: 10px;
 	}
 	.seccion1 h1 {
-		font-size: 18px;
-		
+		font-size: 28px;	
 	}
-
 	.seccion1 p {
 		line-height: 15px;
-	font-size: 10px;
-	margin: 5px;
+		font-size: 10px;
+		margin: 5px;
 	}
 	.seccion1 .card .hyt {
 		margin: 0px 0px 0px 0px;
@@ -310,11 +388,17 @@ footer .copy p{
 	.seccion1 .card img {
 		padding: 0px 0px 0px 0px;
 	}
+	.seccion1 .card .hyt .historia {
+		font-size: 28px;
+	}
 	.seccion1 .card .hyt .texto {
 		font-size: 15px;
 		font-weight: 300;
 	}
 
+	.seccion2 h1 {
+		font-size: 28px;
+	}
 	.seccion2 p {
 		line-height: 20px;
 		font-size: 15px;
@@ -325,9 +409,67 @@ footer .copy p{
 	padding: 5px 50px 5px 50px;
 	}
 
+	.seccion3 .card ul{
+		display:flex ;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 25px;
+	}	
 	.seccion3 .card ul li{
 		font-size: 15px;
 		line-height: 14px;
 		margin: 20px;
+	}
+	.seccion3 h1 {
+		font-size: 28px;
+	}
+
+	.seccion4 h1 {
+		font-size: 28px;
+	}
+
+	.seccion5 .contacto  {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap:20px;
+	}
+	.seccion5 h1 {
+		font-size: 28px;
+		margin-top: 90px;
+		margin-bottom: 20px;
+		color: #494949;
+	}
+	footer{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: #22335F;
+		width: 100vw;
+		height: 50vh;
+}
+	footer img{
+		width: 200px;
+		height: 125px;
+		margin-top: -40px;
+	}
+	footer .numero{
+		color: whitesmoke;
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	footer .copy {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content:space-evenly;
+		font-size: 10px;
+		
 	}
 }
