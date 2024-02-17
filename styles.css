@@ -132,6 +132,7 @@ nav a:hover {
 .seccion1 .card .hyt .texto {
 	font-size: 25px;
 	font-weight: 300;
+	text-align:justify;
 	
 }
 /* - - - - - - - - - - - - - - - -  */
@@ -187,6 +188,7 @@ nav a:hover {
 	align-items: center;
 	justify-content: center;
 	padding-left: 25px;
+	text-align:justify;
 }
 
 .seccion3 {
@@ -417,8 +419,8 @@ footer .copy p{
 		margin-left: 25px;
 	}	
 	.seccion3 .card ul li{
-		font-size: 15px;
-		line-height: 14px;
+		font-size: 16px;
+		line-height: 17px;
 		margin: 20px;
 	}
 	.seccion3 h1 {
