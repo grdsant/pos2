@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
 html {
 	scroll-behavior: smooth;
 }
@@ -9,6 +8,7 @@ html {
 }
 a {
 	text-decoration: none;
+	@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
 }
 
 .hero {
@@ -27,6 +27,29 @@ a {
 }
 .hero img{
 	max-width: 700px;
+	margin-left: -1000px;
+	/* transition-property: transform;
+	transition-duration: .5s;
+	transition-timing-function: ease-in 
+	transition-delay: .5s; */
+}
+@keyframes slideInLeft{
+	from{
+		transform: translateX(0);
+	}
+	to {
+	transform: translatex(800);
+	}
+}	
+.hero .logo{
+	animation-name: slideInLeft;
+	animation-duration: 1s;
+	animation-timing-function: ease ;
+	animation-delay: 1s;
+	animation-iteration-count: 1;
+	animation-direction:normal;
+	animation-fill-mode:none;
+	transform:translateX(800px);
 }
 
 nav {
@@ -93,31 +116,26 @@ nav a:hover {
 	background: #fff;
 	max-width: 100%;
 	border-radius: 5px;
-	/* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
-	display: flex;
-	flex-direction: row;
-	justify-content:space-around;
-	align-items: center;
-	margin-top: 65px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5px;
 }
 
 .seccion1 .card img {
-	width: 50%;
+	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content:space-around;
+	justify-content:center;
 	align-items: center;
 	padding: 30px 50px 0px 50px;
 	border-radius:15rem;
 }
 .seccion1 .card .hyt {
-	width: 50%;
-	max-height: 40%;
 	line-height: 38px;
-	margin: 40px 40px 40px 40px;
 	color: #494949;
 	font-size: 25px;
-	width: 100vw;
+	width: 100%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -133,7 +151,6 @@ nav a:hover {
 	font-size: 25px;
 	font-weight: 300;
 	text-align:justify;
-	
 }
 /* - - - - - - - - - - - - - - - -  */
 .seccion2 {
@@ -386,10 +403,10 @@ footer .copy p{
 	}
 	.seccion1 .card .hyt {
 		margin: 0px 0px 0px 0px;
-		margin-top: 20px;
+		/* margin-top: 20px; */
 	}
 	.seccion1 .card img {
-		padding: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 5px;
 	}
 	.seccion1 .card .hyt .historia {
 		font-size: 28px;
@@ -480,5 +497,27 @@ footer .copy p{
 	}
 	footer .copy p{
 		font-size: 12px;
+	}
+	.hero img{
+		max-width: 700px;
+		margin-left: -200px;
+	}
+	@keyframes slideInLeft{
+		from{
+			transform: translateX(0);
+		}
+		to {
+		transform: translatex(-200);
+		}
+	}	
+	.hero .logo{
+		animation-name: slideInLeft;
+		animation-duration: 1s;
+		animation-timing-function: ease ;
+		animation-delay: 1s;
+		animation-iteration-count: 1;
+		animation-direction:normal;
+		animation-fill-mode:none;
+		transform:translateX(100px);
 	}
 }
